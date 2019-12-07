@@ -15,7 +15,7 @@ body {
     font-size: 1rem;
     line-height: 1.1rem;
     text-align: center;
-    color: #a4b0be;
+    color: #2f3542;
 }
 
 #img-div {
@@ -29,7 +29,18 @@ figure {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
     height: auto;
     margin: 0 auto;
+}
+
+#tribute-info ul {
+    text-align: left;
+    list-style: decimal;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    font-size: 0.7rem;
 }
